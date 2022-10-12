@@ -4,9 +4,9 @@ $TOint = intval($line);
 
 $line2 = readline();
 $ToInt = intval($line2);
-
+$sum = 0;
 if($TOint  === 0 || $ToInt  === 0 ){
-    echo "Thenk you for tring";
+    echo "Thank you for trying";
 
 }else if($TOint > 100 || $ToInt > 100 ){
 
@@ -31,7 +31,7 @@ if($TOint  === 0 || $ToInt  === 0 ){
 
 
     }while($TOint >= 100 || $ToInt >= 100);
+}else{
+  echo  $sum = $ToInt * $TOint;
 }
 
-
-?>
